@@ -1,0 +1,402 @@
+.dropdown-menu{
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    top: 60px !important;
+}
+.nav-item .nav-link{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+
+}
+.nav-item .nav-link:hover{
+    color:#0C65ED;
+}
+
+
+.carousel-indicators {
+    position: absolute;
+    top: 20%;
+    left: 80%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+.title h2::before{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #0C65ED;
+    position: absolute;
+    top: 50%;
+    left: -50px;
+}
+
+.title h2::after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #0C65ED;
+    position: absolute;
+    top: 50%;
+    right: -50px;
+}
+
+.title span::before{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #0C65ED;
+    position: absolute;
+    top: 70%;
+    left: -80px;
+}
+
+.title span::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #0C65ED;
+    position: absolute;
+    top: 70%;
+    right: -80px;
+}
+
+.one:hover h6{
+color: #0C65ED;
+}
+
+.one:hover  i{
+color: #0C65ED;
+}
+
+.about{
+  left: 100px;
+}
+
+
+.left{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    color: #0C65ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left i{
+    font-size: 40px;
+}
+
+/* Services */
+
+#services{
+    background-image: url(/Images/service.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card-1 i{
+    font-size: 30px;
+}
+
+.card-2{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: all 1s;
+}
+
+.card-1:hover .card-2{
+    top: 0%;
+}
+
+.side{
+    width: 15%;
+    z-index: 9999999999;
+}
+.side h6{
+    font-size: 14px;
+    position: relative;
+    left: 10px;
+}
+
+.content{
+    transition: all 1s;
+    position: relative;
+    left:-100%
+
+}
+
+.setting{
+    position: absolute;
+    top: 40%;
+    left:100% ;
+    font-size: 30px;
+}
+
+.side:hover .content{
+    left: 0;
+}
+
+
+.work-item{
+  position: relative;
+}
+
+.card-alert
+{
+    width: 90%;
+    background-color: #0c66edc0;
+    position: absolute;
+    top:80% ;
+    left: 0%;
+    transform: scaleX(0);  
+    transition: all 1s;
+}
+
+.work-item:hover .card-alert{
+  transform: scaleX(1);  
+}
+
+.model{
+  position: relative;
+  top: 80px !important;
+}
+
+
+.team-item{
+  position: relative;
+  overflow: hidden;
+}
+
+.team-item img{
+  height: 400px;
+}
+
+.team-caption {
+  height: 100%;
+  position: absolute;
+  top: 75%;
+  transition: all 1s;
+}
+
+.team-caption i{
+  font-size: 20px;
+}
+
+.team-caption i:hover{
+  color: black;
+}
+
+.underline{
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  transition-property:display ;
+  transition-duration: 1s;
+}
+
+.team-item:hover .underline{
+  display: none;
+}
+
+.team-item:hover .team-caption{
+top: 35%;
+}
+
+
+.pricing-list button
+{
+  font-size: 25px;
+}
+
+.linegray
+{
+  width: 80%;
+  height: 1px;
+  margin:30px auto;
+  background-color: rgba(128, 128, 128, 0.471);
+
+}
+
+.lineblue
+{
+  width: 60px;
+  height: 2px;
+  margin: 5px auto;
+  background-color:#0C65ED;
+}
+
+.pricing-item h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+}
+
+.pricing-item h4{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+
+.subscribe h3{
+  font-size: 42px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.blog-img{
+  overflow: hidden;
+  width: 100%;
+}
+
+.blog-img img{
+  transition: all 1s;
+}
+
+.blog-item:hover .blog-img img{
+  transform: scale(1.1,1.1) ;
+}
+
+.blog-icons{
+  width: 25%;
+  background-color: black;
+  color: white;
+}
+
+.blog-item:hover .blog-icons{
+  background-color: #0C65ED;
+  color: white;
+}
+
+.blog-caption  h6{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.lineblog{
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  margin: auto;
+}
+
+.lineblog-2{
+  width: 20%;
+  height: 2px;
+  background-color:#0C65ED;
+  transition: all 1s;
+}
+
+.blog-item:hover .lineblog-2{
+  width: 100%;
+}
+
+.blog-caption span{
+  font-size: 12px;
+}
+
+.blog-caption span:hover{
+  color: #0C65ED !important;
+}
+
+
+.meet-title span{
+  position: relative;
+}
+
+.meet-title span::after{
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: #0C65ED;
+  position: absolute;
+  top: 40%;
+  right: -60px;
+}
+
+.meet-title h3{
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.meet-title h3::after{
+  content: "";
+  width: 80px;
+  height: 3px;
+  background-color: #0C65ED;
+  position: absolute;
+  top: 60%;
+  right: -100px;
+}
+
+.meet-title img{
+  height: 120px;
+}
+
+
+.purchase button{
+  background-color: white;
+  color: #0C65ED;
+  padding: 10px 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+
+.card-footer img{
+  height: 70px;
+}
+
+.popular button{
+  padding: 5px 10px;
+}
+
+.footer{
+  background-color: black;
+}
+
+
+
+
+/* Contact */
+#form {
+    height: 600px;
+    background-color: white;
+    padding: 50px 5%;
+}
+
+
+#form form {
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#form form input {
+    border: 0px;
+    border-bottom: 1px solid #e0dfdf;
+    width: 85%;
+    padding: 10px 0px;
+    margin: 10px 0;
+}
+
+#hero {
+    background-image: url(/Images/slider1.jpg);
+    color: rgba(0,0,0,0.9);
+    height: 400px;
+}
+
+#hero a {
+    text-decoration: none;
+    color: black;
+}
